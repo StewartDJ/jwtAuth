@@ -1,0 +1,32 @@
+GET http://localhost:3000/posts
+Authorization: Bearer 
+# Insert that thing from 14 mins in the video once I can get it to work , also check 20 mins in
+
+###
+
+
+DELETE http://localhost:4000/logout
+Content-Type: application/json
+
+{
+#   "token": fill in the blanks once i fix the issue
+}
+
+###
+
+POST http://localhost:4000/token
+Content-Type: application/json
+
+{
+#   "token": fill in the blanks once i fix the issue
+}
+
+###
+
+
+POST http://localhost:4000/login
+Content-Type: application/json
+
+{
+  "username": "Jim"
+}
